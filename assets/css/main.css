@@ -92,6 +92,9 @@ body {
 }
 
 @media(max-width:767px){
+    /* .container {
+        width: 100%;
+    } */
      .container .nav .links ul {
         display: none;
     }
@@ -184,8 +187,6 @@ body {
     top: 68px;
     z-index: 1;
     transform: rotate(45deg)
-
-
 }
 .landing .dive{
     width: 50%;
@@ -278,11 +279,20 @@ margin-bottom: 40px;
     .landing .women-picture{
         width: 100%;
         justify-content: center;
+        margin-top: 50px;
     }
     .landing .dive{
         flex-direction: column;
         width: 100%;
         margin-bottom: 30px;
+    }
+    .landing .women-picture::after{
+        left: 0;
+        top: 40px;
+    }
+    .women-picture span.fa-play{
+        left: 122px;
+        top: 68px;
     }
 }
 /* start catogries style*/
@@ -420,6 +430,7 @@ margin-bottom: 40px;
     border-radius: 0 20px ;
     color: white;
 }
+/* start customers style */
 .customers{
     padding-top: var(--section-padding);
    padding-bottom: var(--section-padding);
