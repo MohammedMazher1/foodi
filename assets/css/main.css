@@ -601,6 +601,14 @@ color: gold;
     padding-top: var(--section-padding);
    padding-bottom: var(--section-padding);
 }
+@media(max-width:767px){
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+}
 .footer > div ul{
     list-style: none;
 }
